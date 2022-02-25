@@ -8,19 +8,20 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         runMaximumProductSubarray()
         runtwoSum()
     }
-
+    
     
     func runMaximumProductSubarray() {
         let maximumProductSubarray = MaximumProductSubarray_medium()
         let solution = maximumProductSubarray.maxProduct(nums: [2,3,-2,4])
         print(solution)
     }
+    
     
     func runtwoSum() {
         let twoSum = TwoSum_easy()
