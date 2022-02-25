@@ -13,6 +13,7 @@
 		128354AF27C8A3A100F70118 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 128354AD27C8A3A100F70118 /* Main.storyboard */; };
 		128354B127C8A3A200F70118 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 128354B027C8A3A200F70118 /* Assets.xcassets */; };
 		128354B427C8A3A200F70118 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 128354B227C8A3A200F70118 /* LaunchScreen.storyboard */; };
+		128354BE27C8A45F00F70118 /* MaximumProductSubarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128354BD27C8A45F00F70118 /* MaximumProductSubarray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		128354B027C8A3A200F70118 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		128354B327C8A3A200F70118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		128354B527C8A3A200F70118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		128354BD27C8A45F00F70118 /* MaximumProductSubarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumProductSubarray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,32 @@
 		128354A627C8A3A100F70118 /* LeetCodeSwift */ = {
 			isa = PBXGroup;
 			children = (
-				128354A727C8A3A100F70118 /* AppDelegate.swift */,
-				128354A927C8A3A100F70118 /* SceneDelegate.swift */,
+				128354BC27C8A44800F70118 /* Problems */,
+				128354BB27C8A42700F70118 /* Support */,
 				128354AB27C8A3A100F70118 /* ViewController.swift */,
-				128354AD27C8A3A100F70118 /* Main.storyboard */,
-				128354B027C8A3A200F70118 /* Assets.xcassets */,
-				128354B227C8A3A200F70118 /* LaunchScreen.storyboard */,
 				128354B527C8A3A200F70118 /* Info.plist */,
 			);
 			path = LeetCodeSwift;
+			sourceTree = "<group>";
+		};
+		128354BB27C8A42700F70118 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				128354A727C8A3A100F70118 /* AppDelegate.swift */,
+				128354A927C8A3A100F70118 /* SceneDelegate.swift */,
+				128354AD27C8A3A100F70118 /* Main.storyboard */,
+				128354B027C8A3A200F70118 /* Assets.xcassets */,
+				128354B227C8A3A200F70118 /* LaunchScreen.storyboard */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		128354BC27C8A44800F70118 /* Problems */ = {
+			isa = PBXGroup;
+			children = (
+				128354BD27C8A45F00F70118 /* MaximumProductSubarray.swift */,
+			);
+			path = Problems;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +160,7 @@
 				128354AC27C8A3A100F70118 /* ViewController.swift in Sources */,
 				128354A827C8A3A100F70118 /* AppDelegate.swift in Sources */,
 				128354AA27C8A3A100F70118 /* SceneDelegate.swift in Sources */,
+				128354BE27C8A45F00F70118 /* MaximumProductSubarray.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,9 +11,14 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        runMaximumProductSubarray()
     }
 
-
+    
+    func runMaximumProductSubarray() {
+        let maximumProductSubarray = MaximumProductSubarray()
+        let solution = maximumProductSubarray.maxProduct(nums: [2,3,-2,4])
+        print(solution)
+    }
 }
 
