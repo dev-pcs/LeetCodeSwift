@@ -11,8 +11,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        runMaximumProductSubarray()
-        runtwoSum()
+//        runMaximumProductSubarray()
+//        runtwoSum()
+        runBinarySearch()
     }
     
     
@@ -26,6 +27,13 @@ class ViewController: UIViewController {
     func runtwoSum() {
         let twoSum = TwoSum_easy()
         let solution = twoSum.twoSum([3, 2, 1, 7, 4], 6)
+        print(solution)
+    }
+    
+    
+    func runBinarySearch() {
+        let binarySearch = BinarySearch()
+        let solution = binarySearch.search([1,2,4,6,7,8,9,13], 9)
         print(solution)
     }
 }

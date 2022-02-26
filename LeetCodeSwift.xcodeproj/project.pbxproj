@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1227528B27C9B01E002A05A1 /* BinarySearch_easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1227528A27C9B01E002A05A1 /* BinarySearch_easy.swift */; };
 		128354A827C8A3A100F70118 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128354A727C8A3A100F70118 /* AppDelegate.swift */; };
 		128354AA27C8A3A100F70118 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128354A927C8A3A100F70118 /* SceneDelegate.swift */; };
 		128354AC27C8A3A100F70118 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128354AB27C8A3A100F70118 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1227528A27C9B01E002A05A1 /* BinarySearch_easy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch_easy.swift; sourceTree = "<group>"; };
 		128354A427C8A3A100F70118 /* LeetCodeSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCodeSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		128354A727C8A3A100F70118 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		128354A927C8A3A100F70118 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 			children = (
 				128354BD27C8A45F00F70118 /* MaximumProductSubarray_medium.swift */,
 				128354BF27C8A7A000F70118 /* TwoSum_easy.swift */,
+				1227528A27C9B01E002A05A1 /* BinarySearch_easy.swift */,
 			);
 			path = Problems;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 				128354C027C8A7A000F70118 /* TwoSum_easy.swift in Sources */,
 				128354A827C8A3A100F70118 /* AppDelegate.swift in Sources */,
 				128354AA27C8A3A100F70118 /* SceneDelegate.swift in Sources */,
+				1227528B27C9B01E002A05A1 /* BinarySearch_easy.swift in Sources */,
 				128354BE27C8A45F00F70118 /* MaximumProductSubarray_medium.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
