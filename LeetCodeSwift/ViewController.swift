@@ -23,7 +23,8 @@ class ViewController: UIViewController {
 //        runMoveZeroes()
 //        runReverseWordsInAString()
 //        runBestTimeToSellAndBuy()
-        runContainsDuplicate()
+//        runContainsDuplicate()
+        runProductOfArrayExceptSelf()
     }
     
     
@@ -114,6 +115,13 @@ class ViewController: UIViewController {
     func runContainsDuplicate() {
         let containsDuplicate = ContainsDuplicate()
         let solution = containsDuplicate.containsDuplicate(nums: [1,2,3,4,5,3])
+        print(solution)
+    }
+    
+    
+    func runProductOfArrayExceptSelf() {
+        let productOfArrayExceptSelf = ProductOfArrayExceptSelf()
+        let solution = productOfArrayExceptSelf.productOfArrayExceptSelf([1,2,3,4,5])
         print(solution)
     }
     

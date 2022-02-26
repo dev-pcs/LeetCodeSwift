@@ -18,6 +18,7 @@
 		124CBD5227C9BF5500C4DEFD /* ReverseWordsInAString_easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124CBD5127C9BF5500C4DEFD /* ReverseWordsInAString_easy.swift */; };
 		124CBD5427C9C02900C4DEFD /* BestTimeToSellAndBuy_easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124CBD5327C9C02900C4DEFD /* BestTimeToSellAndBuy_easy.swift */; };
 		124CBD5627C9C14B00C4DEFD /* ContainsDuplicate_easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124CBD5527C9C14B00C4DEFD /* ContainsDuplicate_easy.swift */; };
+		124CBD5827C9C23B00C4DEFD /* ProductOfArrayExceptSelf_medium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124CBD5727C9C23B00C4DEFD /* ProductOfArrayExceptSelf_medium.swift */; };
 		128354A827C8A3A100F70118 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128354A727C8A3A100F70118 /* AppDelegate.swift */; };
 		128354AA27C8A3A100F70118 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128354A927C8A3A100F70118 /* SceneDelegate.swift */; };
 		128354AC27C8A3A100F70118 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128354AB27C8A3A100F70118 /* ViewController.swift */; };
@@ -40,6 +41,7 @@
 		124CBD5127C9BF5500C4DEFD /* ReverseWordsInAString_easy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseWordsInAString_easy.swift; sourceTree = "<group>"; };
 		124CBD5327C9C02900C4DEFD /* BestTimeToSellAndBuy_easy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestTimeToSellAndBuy_easy.swift; sourceTree = "<group>"; };
 		124CBD5527C9C14B00C4DEFD /* ContainsDuplicate_easy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsDuplicate_easy.swift; sourceTree = "<group>"; };
+		124CBD5727C9C23B00C4DEFD /* ProductOfArrayExceptSelf_medium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductOfArrayExceptSelf_medium.swift; sourceTree = "<group>"; };
 		128354A427C8A3A100F70118 /* LeetCodeSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCodeSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		128354A727C8A3A100F70118 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		128354A927C8A3A100F70118 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				124CBD5127C9BF5500C4DEFD /* ReverseWordsInAString_easy.swift */,
 				124CBD5327C9C02900C4DEFD /* BestTimeToSellAndBuy_easy.swift */,
 				124CBD5527C9C14B00C4DEFD /* ContainsDuplicate_easy.swift */,
+				124CBD5727C9C23B00C4DEFD /* ProductOfArrayExceptSelf_medium.swift */,
 			);
 			path = Problems;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				124CBD4A27C9B86D00C4DEFD /* RotateArray_medium.swift in Sources */,
 				124CBD5027C9BD8A00C4DEFD /* ReverseString_easy.swift in Sources */,
 				124CBD4827C9B6CF00C4DEFD /* SquaresOfASortedArray_easy.swift in Sources */,
+				124CBD5827C9C23B00C4DEFD /* ProductOfArrayExceptSelf_medium.swift in Sources */,
 				128354BE27C8A45F00F70118 /* MaximumProductSubarray_medium.swift in Sources */,
 				124CBD4C27C9BA1400C4DEFD /* MoveZeroes_easy.swift in Sources */,
 			);
