@@ -14,7 +14,8 @@ class ViewController: UIViewController {
 //        runMaximumProductSubarray()
 //        runtwoSum()
 //        runBinarySearch()
-        runSearchInsertedPostion()
+//        runSearchInsertedPostion()
+        runPalindromeNumber()
     }
     
     
@@ -42,6 +43,13 @@ class ViewController: UIViewController {
     func runSearchInsertedPostion() {
         let searchInsertedPostion = SearchInsertedPostion_easy()
         let solution = searchInsertedPostion.searchInsertedPostion([2, 4, 5, 6, 7], 8)
+        print(solution)
+    }
+    
+    
+    func runPalindromeNumber() {
+        let palindromeNumber = PalindromeNumber()
+        let solution = palindromeNumber.palindromeNumber(04540)
         print(solution)
     }
 }

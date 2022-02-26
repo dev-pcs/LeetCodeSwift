@@ -30,6 +30,7 @@
 import Foundation
 
 class MaximumProductSubarray_medium {
+    
     func maxProduct(nums: [Int]) -> Int {
         var min_soFar = nums[0]
         var max_soFar = nums[0]

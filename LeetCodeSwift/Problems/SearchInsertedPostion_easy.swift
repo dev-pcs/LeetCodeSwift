@@ -33,6 +33,7 @@
 import UIKit
 
 class SearchInsertedPostion_easy {
+    
     func searchInsertedPostion(_ nums: [Int], _ target: Int) -> Int {
         
         var left = 0

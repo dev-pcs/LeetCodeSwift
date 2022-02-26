@@ -30,6 +30,7 @@
 import Foundation
 
 class BinarySearch {
+    
     func binarySearch(_ nums: [Int], _ target: Int) -> Int {
         if nums.count == 0 {
             return -1
