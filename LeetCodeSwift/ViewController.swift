@@ -21,7 +21,8 @@ class ViewController: UIViewController {
 //        runMoveZeroes()
 //        runtwoSumSortedArray()
 //        runMoveZeroes()
-        runReverseWordsInAString()
+//        runReverseWordsInAString()
+        runBestTimeToSellAndBuy()
     }
     
     
@@ -100,5 +101,13 @@ class ViewController: UIViewController {
         let solution = reverseWordsInAString.reverseWordsInAString("hello how are you")
         print(solution)
     }
+    
+    
+    func runBestTimeToSellAndBuy() {
+        let bestTimeToSellAndBuy = BestTimeToSellAndBuy()
+        let solution = bestTimeToSellAndBuy.bestTimeToSellAndBuy([7,1,5,3,6,4])
+        print(solution)
+    }
+    
 }
 
