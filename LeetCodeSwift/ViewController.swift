@@ -24,7 +24,8 @@ class ViewController: UIViewController {
 //        runReverseWordsInAString()
 //        runBestTimeToSellAndBuy()
 //        runContainsDuplicate()
-        runProductOfArrayExceptSelf()
+//        runProductOfArrayExceptSelf()
+        runMaxSubArray()
     }
     
     
@@ -122,6 +123,13 @@ class ViewController: UIViewController {
     func runProductOfArrayExceptSelf() {
         let productOfArrayExceptSelf = ProductOfArrayExceptSelf()
         let solution = productOfArrayExceptSelf.productOfArrayExceptSelf([1,2,3,4,5])
+        print(solution)
+    }
+    
+    
+    func runMaxSubArray() {
+        let maxSubArray = MaxSubArray()
+        let solution = maxSubArray.maxSubArray([-2,1,-3,4,-1,2,1,-5,4])
         print(solution)
     }
     
