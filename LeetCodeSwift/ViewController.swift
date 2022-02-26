@@ -18,7 +18,8 @@ class ViewController: UIViewController {
 //        runPalindromeNumber()
 //        runSquaresOfASortedArray()
 //        runRotateArray()
-        runMoveZeroes()
+//        runMoveZeroes()
+        runtwoSumSortedArray()
     }
     
     
@@ -70,9 +71,15 @@ class ViewController: UIViewController {
     }
     
     
-    func runMoveZeroes() {
-        let moveZeros = moveZeroes()
-        let solution = moveZeros.moveZeroes([0,1,0,3,12])
+//    func runMoveZeroes() {
+//        let moveZeros = moveZeroes()
+//        let solution = moveZeros.moveZeroes([0,1,0,3,12])
+//        print(solution)
+//    }
+    
+    func runtwoSumSortedArray() {
+        let twoSumSortedArray = TwoSumSortedArray()
+        let solution = twoSumSortedArray.twoSumSortedArray([1,3,4,5,7,11], 4)
         print(solution)
     }
 }
