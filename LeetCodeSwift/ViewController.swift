@@ -13,7 +13,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 //        runMaximumProductSubarray()
 //        runtwoSum()
-        runBinarySearch()
+//        runBinarySearch()
+        runSearchInsertedPostion()
     }
     
     
@@ -33,7 +34,14 @@ class ViewController: UIViewController {
     
     func runBinarySearch() {
         let binarySearch = BinarySearch()
-        let solution = binarySearch.search([1,2,4,6,7,8,9,13], 9)
+        let solution = binarySearch.binarySearch([1,2,4,6,7,8,9,13], 9)
+        print(solution)
+    }
+    
+    
+    func runSearchInsertedPostion() {
+        let searchInsertedPostion = SearchInsertedPostion_easy()
+        let solution = searchInsertedPostion.searchInsertedPostion([2, 4, 5, 6, 7], 8)
         print(solution)
     }
 }
