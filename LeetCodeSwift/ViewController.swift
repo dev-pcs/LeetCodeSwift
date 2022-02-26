@@ -19,8 +19,9 @@ class ViewController: UIViewController {
 //        runSquaresOfASortedArray()
 //        runRotateArray()
 //        runMoveZeroes()
-        runtwoSumSortedArray()
+//        runtwoSumSortedArray()
 //        runMoveZeroes()
+        runReverseWordsInAString()
     }
     
     
@@ -58,6 +59,7 @@ class ViewController: UIViewController {
         print(solution)
     }
     
+    
     func runSquaresOfASortedArray() {
         let squaresOfASortedArray = SquaresOfASortedArray_easy()
         let solution = squaresOfASortedArray.squaresOfASortedArray([-4,-3,-1,0,2,4,5,6])
@@ -78,6 +80,7 @@ class ViewController: UIViewController {
 //        print(solution)
 //    }
     
+    
     func runtwoSumSortedArray() {
         let twoSumSortedArray = TwoSumSortedArray()
         let solution = twoSumSortedArray.twoSumSortedArray([1,3,4,5,7,11], 4)
@@ -90,5 +93,12 @@ class ViewController: UIViewController {
 //        let solution = reverseString.reverseString(<#T##s: &[Character]##[Character]#>)
 //        print(solution)
 //    }
+    
+    
+    func runReverseWordsInAString() {
+        let reverseWordsInAString = ReverseWordsInAString()
+        let solution = reverseWordsInAString.reverseWordsInAString("hello how are you")
+        print(solution)
+    }
 }
 
