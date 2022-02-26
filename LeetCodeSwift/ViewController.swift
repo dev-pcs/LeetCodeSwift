@@ -20,6 +20,7 @@ class ViewController: UIViewController {
 //        runRotateArray()
 //        runMoveZeroes()
         runtwoSumSortedArray()
+//        runMoveZeroes()
     }
     
     
@@ -82,5 +83,12 @@ class ViewController: UIViewController {
         let solution = twoSumSortedArray.twoSumSortedArray([1,3,4,5,7,11], 4)
         print(solution)
     }
+    
+    
+//    func runReverseString() {
+//        let reverseString = ReverseString()
+//        let solution = reverseString.reverseString(<#T##s: &[Character]##[Character]#>)
+//        print(solution)
+//    }
 }
 
