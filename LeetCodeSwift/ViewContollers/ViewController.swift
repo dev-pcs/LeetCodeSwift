@@ -9,24 +9,42 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var problemsTableView: UITableView!
+    
+    var ProblemsArray = [
+        "MaximumProductSubarray_medium",
+        "TwoSum_easy",
+        "BinarySearch_easy",
+        "SearchInsertedPostion_easy",
+        "PalindromeNumber_easy",
+        "SquaresOfASortedArray_easy",
+        "RotateArray_medium"
+    ]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-//        runMaximumProductSubarray()
-//        runtwoSum()
-//        runBinarySearch()
-//        runSearchInsertedPostion()
-//        runPalindromeNumber()
-//        runSquaresOfASortedArray()
-//        runRotateArray()
-//        runMoveZeroes()
-//        runtwoSumSortedArray()
-//        runMoveZeroes()
-//        runReverseWordsInAString()
-//        runBestTimeToSellAndBuy()
-//        runContainsDuplicate()
-//        runProductOfArrayExceptSelf()
+        
+        problemsTableView.delegate = self
+        problemsTableView.dataSource = self
+        
+        //        runMaximumProductSubarray()
+        //        runtwoSum()
+        //        runBinarySearch()
+        //        runSearchInsertedPostion()
+        //        runPalindromeNumber()
+        //        runSquaresOfASortedArray()
+        //        runRotateArray()
+        //        runMoveZeroes()
+        //        runtwoSumSortedArray()
+        //        runMoveZeroes()
+        //        runReverseWordsInAString()
+        //        runBestTimeToSellAndBuy()
+        //        runContainsDuplicate()
+        //        runProductOfArrayExceptSelf()
         runMaxSubArray()
     }
+    
+    
     
     
     func runMaximumProductSubarray() {
@@ -78,11 +96,11 @@ class ViewController: UIViewController {
     }
     
     
-//    func runMoveZeroes() {
-//        let moveZeros = moveZeroes()
-//        let solution = moveZeros.moveZeroes([0,1,0,3,12])
-//        print(solution)
-//    }
+    //    func runMoveZeroes() {
+    //        let moveZeros = moveZeroes()
+    //        let solution = moveZeros.moveZeroes([0,1,0,3,12])
+    //        print(solution)
+    //    }
     
     
     func runtwoSumSortedArray() {
@@ -92,11 +110,11 @@ class ViewController: UIViewController {
     }
     
     
-//    func runReverseString() {
-//        let reverseString = ReverseString()
-//        let solution = reverseString.reverseString(<#T##s: &[Character]##[Character]#>)
-//        print(solution)
-//    }
+    //    func runReverseString() {
+    //        let reverseString = ReverseString()
+    //        let solution = reverseString.reverseString(<#T##s: &[Character]##[Character]#>)
+    //        print(solution)
+    //    }
     
     
     func runReverseWordsInAString() {
@@ -135,3 +153,19 @@ class ViewController: UIViewController {
     
 }
 
+extension ViewController: UITableViewDelegate, UITableViewDataSource {
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("selected \(ProblemsArray[indexPath.row])")
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return ProblemsArray.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = problemsTableView.dequeueReusableCell(withIdentifier: "LeetCodeProblem", for: indexPath)
+        cell.textLabel?.text = ProblemsArray[indexPath.row]
+        return cell
+    }
+}
