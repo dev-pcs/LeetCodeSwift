@@ -15,19 +15,20 @@ class ViewController: UIViewController {
 //        runtwoSum()
 //        runBinarySearch()
 //        runSearchInsertedPostion()
-        runPalindromeNumber()
+//        runPalindromeNumber()
+        runSquaresOfASortedArray()
     }
     
     
     func runMaximumProductSubarray() {
-        let maximumProductSubarray = MaximumProductSubarray_medium()
+        let maximumProductSubarray = MaximumProductSubarray()
         let solution = maximumProductSubarray.maxProduct(nums: [2,3,-2,4])
         print(solution)
     }
     
     
     func runtwoSum() {
-        let twoSum = TwoSum_easy()
+        let twoSum = TwoSum()
         let solution = twoSum.twoSum([3, 2, 1, 7, 4], 6)
         print(solution)
     }
@@ -41,7 +42,7 @@ class ViewController: UIViewController {
     
     
     func runSearchInsertedPostion() {
-        let searchInsertedPostion = SearchInsertedPostion_easy()
+        let searchInsertedPostion = SearchInsertedPostion()
         let solution = searchInsertedPostion.searchInsertedPostion([2, 4, 5, 6, 7], 8)
         print(solution)
     }
@@ -50,6 +51,12 @@ class ViewController: UIViewController {
     func runPalindromeNumber() {
         let palindromeNumber = PalindromeNumber()
         let solution = palindromeNumber.palindromeNumber(04540)
+        print(solution)
+    }
+    
+    func runSquaresOfASortedArray() {
+        let squaresOfASortedArray = SquaresOfASortedArray_easy()
+        let solution = squaresOfASortedArray.squaresOfASortedArray([-4,-3,-1,0,2,4,5,6])
         print(solution)
     }
 }

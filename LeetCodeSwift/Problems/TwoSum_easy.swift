@@ -34,7 +34,7 @@
 
 import Foundation
 
-class TwoSum_easy {
+class TwoSum {
     
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
         var dict = [Int: Int]()

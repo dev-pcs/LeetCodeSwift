@@ -32,7 +32,7 @@
 
 import UIKit
 
-class SearchInsertedPostion_easy {
+class SearchInsertedPostion {
     
     func searchInsertedPostion(_ nums: [Int], _ target: Int) -> Int {
         
