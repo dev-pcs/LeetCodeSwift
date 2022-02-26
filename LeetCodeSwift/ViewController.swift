@@ -16,7 +16,8 @@ class ViewController: UIViewController {
 //        runBinarySearch()
 //        runSearchInsertedPostion()
 //        runPalindromeNumber()
-        runSquaresOfASortedArray()
+//        runSquaresOfASortedArray()
+        runRotateArray()
     }
     
     
@@ -57,6 +58,13 @@ class ViewController: UIViewController {
     func runSquaresOfASortedArray() {
         let squaresOfASortedArray = SquaresOfASortedArray_easy()
         let solution = squaresOfASortedArray.squaresOfASortedArray([-4,-3,-1,0,2,4,5,6])
+        print(solution)
+    }
+    
+    
+    func runRotateArray() {
+        let rotateArray = RotateArray()
+        let solution = rotateArray.reverse(nums: [1, 2, 4, 5, 8, 7, 0, 8], start: 2, end: 5)
         print(solution)
     }
 }
