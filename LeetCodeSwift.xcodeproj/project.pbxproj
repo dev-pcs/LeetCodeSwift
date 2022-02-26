@@ -12,6 +12,7 @@
 		1227528F27C9B449002A05A1 /* PalindromeNumber_easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1227528E27C9B449002A05A1 /* PalindromeNumber_easy.swift */; };
 		124CBD4827C9B6CF00C4DEFD /* SquaresOfASortedArray_easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124CBD4727C9B6CF00C4DEFD /* SquaresOfASortedArray_easy.swift */; };
 		124CBD4A27C9B86D00C4DEFD /* RotateArray_medium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124CBD4927C9B86D00C4DEFD /* RotateArray_medium.swift */; };
+		124CBD4C27C9BA1400C4DEFD /* MoveZeroes_easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124CBD4B27C9BA1400C4DEFD /* MoveZeroes_easy.swift */; };
 		128354A827C8A3A100F70118 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128354A727C8A3A100F70118 /* AppDelegate.swift */; };
 		128354AA27C8A3A100F70118 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128354A927C8A3A100F70118 /* SceneDelegate.swift */; };
 		128354AC27C8A3A100F70118 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128354AB27C8A3A100F70118 /* ViewController.swift */; };
@@ -28,6 +29,7 @@
 		1227528E27C9B449002A05A1 /* PalindromeNumber_easy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeNumber_easy.swift; sourceTree = "<group>"; };
 		124CBD4727C9B6CF00C4DEFD /* SquaresOfASortedArray_easy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquaresOfASortedArray_easy.swift; sourceTree = "<group>"; };
 		124CBD4927C9B86D00C4DEFD /* RotateArray_medium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateArray_medium.swift; sourceTree = "<group>"; };
+		124CBD4B27C9BA1400C4DEFD /* MoveZeroes_easy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveZeroes_easy.swift; sourceTree = "<group>"; };
 		128354A427C8A3A100F70118 /* LeetCodeSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCodeSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		128354A727C8A3A100F70118 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		128354A927C8A3A100F70118 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				1227528E27C9B449002A05A1 /* PalindromeNumber_easy.swift */,
 				124CBD4727C9B6CF00C4DEFD /* SquaresOfASortedArray_easy.swift */,
 				124CBD4927C9B86D00C4DEFD /* RotateArray_medium.swift */,
+				124CBD4B27C9BA1400C4DEFD /* MoveZeroes_easy.swift */,
 			);
 			path = Problems;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				124CBD4A27C9B86D00C4DEFD /* RotateArray_medium.swift in Sources */,
 				124CBD4827C9B6CF00C4DEFD /* SquaresOfASortedArray_easy.swift in Sources */,
 				128354BE27C8A45F00F70118 /* MaximumProductSubarray_medium.swift in Sources */,
+				124CBD4C27C9BA1400C4DEFD /* MoveZeroes_easy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -17,7 +17,8 @@ class ViewController: UIViewController {
 //        runSearchInsertedPostion()
 //        runPalindromeNumber()
 //        runSquaresOfASortedArray()
-        runRotateArray()
+//        runRotateArray()
+        runMoveZeroes()
     }
     
     
@@ -65,6 +66,13 @@ class ViewController: UIViewController {
     func runRotateArray() {
         let rotateArray = RotateArray()
         let solution = rotateArray.reverse(nums: [1, 2, 4, 5, 8, 7, 0, 8], start: 2, end: 5)
+        print(solution)
+    }
+    
+    
+    func runMoveZeroes() {
+        let moveZeros = moveZeroes()
+        let solution = moveZeros.moveZeroes([0,1,0,3,12])
         print(solution)
     }
 }
