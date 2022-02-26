@@ -22,7 +22,8 @@ class ViewController: UIViewController {
 //        runtwoSumSortedArray()
 //        runMoveZeroes()
 //        runReverseWordsInAString()
-        runBestTimeToSellAndBuy()
+//        runBestTimeToSellAndBuy()
+        runContainsDuplicate()
     }
     
     
@@ -106,6 +107,13 @@ class ViewController: UIViewController {
     func runBestTimeToSellAndBuy() {
         let bestTimeToSellAndBuy = BestTimeToSellAndBuy()
         let solution = bestTimeToSellAndBuy.bestTimeToSellAndBuy([7,1,5,3,6,4])
+        print(solution)
+    }
+    
+    
+    func runContainsDuplicate() {
+        let containsDuplicate = ContainsDuplicate()
+        let solution = containsDuplicate.containsDuplicate(nums: [1,2,3,4,5,3])
         print(solution)
     }
     
