@@ -27,22 +27,23 @@ class ViewController: UIViewController {
         problemsTableView.delegate = self
         problemsTableView.dataSource = self
         
-        //        runMaximumProductSubarray()
-        //        runtwoSum()
-        //        runBinarySearch()
-        //        runSearchInsertedPostion()
-        //        runPalindromeNumber()
-        //        runSquaresOfASortedArray()
-        //        runRotateArray()
-        //        runMoveZeroes()
-        //        runtwoSumSortedArray()
-        //        runMoveZeroes()
-        //        runReverseWordsInAString()
-        //        runBestTimeToSellAndBuy()
-        //        runContainsDuplicate()
-        //        runProductOfArrayExceptSelf()
+//        runMaximumProductSubarray()
+//        runtwoSum()
+//        runBinarySearch()
+//        runSearchInsertedPostion()
+//        runPalindromeNumber()
+//        runSquaresOfASortedArray()
+//        runRotateArray()
+//        runMoveZeroes()
+//        runtwoSumSortedArray()
+//        runMoveZeroes()
+//        runReverseWordsInAString()
+//        runBestTimeToSellAndBuy()
+//        runContainsDuplicate()
+//        runProductOfArrayExceptSelf()
 //        runMaxSubArray()
-        runFindMinimumInRotatedSortedArray()
+//        runFindMinimumInRotatedSortedArray()
+        runTwoSumII()
     }
     
     
@@ -156,6 +157,13 @@ class ViewController: UIViewController {
     func runFindMinimumInRotatedSortedArray() {
         let findMinimumInRotatedSortedArray = FindMinimumInRotatedSortedArray()
         let solution = findMinimumInRotatedSortedArray.FindMinimumInRotatedSortedArray([4,5,6,7,0,1,2])
+        print(solution)
+    }
+    
+    
+    func runTwoSumII() {
+        let twoSumII = TwoSumII()
+        let solution = twoSumII.TwoSumII([2,7,11,15], 9)
         print(solution)
     }
     
