@@ -41,7 +41,8 @@ class ViewController: UIViewController {
         //        runBestTimeToSellAndBuy()
         //        runContainsDuplicate()
         //        runProductOfArrayExceptSelf()
-        runMaxSubArray()
+//        runMaxSubArray()
+        runFindMinimumInRotatedSortedArray()
     }
     
     
@@ -151,7 +152,16 @@ class ViewController: UIViewController {
         print(solution)
     }
     
+    
+    func runFindMinimumInRotatedSortedArray() {
+        let findMinimumInRotatedSortedArray = FindMinimumInRotatedSortedArray()
+        let solution = findMinimumInRotatedSortedArray.FindMinimumInRotatedSortedArray([4,5,6,7,0,1,2])
+        print(solution)
+    }
+    
 }
+
+//Mark: Extension
 
 extension ViewController: UITableViewDelegate, UITableViewDataSource {
     
