@@ -43,7 +43,8 @@ class ViewController: UIViewController {
 //        runProductOfArrayExceptSelf()
 //        runMaxSubArray()
 //        runFindMinimumInRotatedSortedArray()
-        runTwoSumII()
+//        runTwoSumII()
+        runThreeSum()
     }
     
     
@@ -164,6 +165,13 @@ class ViewController: UIViewController {
     func runTwoSumII() {
         let twoSumII = TwoSumII()
         let solution = twoSumII.TwoSumII([2,7,11,15], 9)
+        print(solution)
+    }
+    
+    
+    func runThreeSum() {
+        let threeSum = ThreeSum()
+        let solution = threeSum.threeSum([-1,0,1,2,-1,-4])
         print(solution)
     }
     
