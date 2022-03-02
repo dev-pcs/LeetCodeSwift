@@ -27,6 +27,8 @@ class ViewController: UIViewController {
         problemsTableView.delegate = self
         problemsTableView.dataSource = self
         
+//        Array:-
+        
 //        runMaximumProductSubarray()
 //        runtwoSum()
 //        runBinarySearch()
@@ -45,7 +47,11 @@ class ViewController: UIViewController {
 //        runFindMinimumInRotatedSortedArray()
 //        runTwoSumII()
 //        runThreeSum()
-        runContainerWithMostWater()
+//        runContainerWithMostWater()
+        
+//    Binary:-
+        
+        runSumOfTwoIntegers()
     }
     
     
@@ -180,6 +186,13 @@ class ViewController: UIViewController {
     func runContainerWithMostWater() {
         let containerWithMostWater = ContainerWithMostWater()
         let solution = containerWithMostWater.maxArea([1,1])
+        print(solution)
+    }
+    
+    
+    func runSumOfTwoIntegers() {
+        let sumOfTwoIntegers = SumOfTwoIntegers()
+        let solution = sumOfTwoIntegers.getSum(9, 11)
         print(solution)
     }
     
