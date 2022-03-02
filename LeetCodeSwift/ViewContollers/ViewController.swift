@@ -44,7 +44,8 @@ class ViewController: UIViewController {
 //        runMaxSubArray()
 //        runFindMinimumInRotatedSortedArray()
 //        runTwoSumII()
-        runThreeSum()
+//        runThreeSum()
+        runContainerWithMostWater()
     }
     
     
@@ -172,6 +173,13 @@ class ViewController: UIViewController {
     func runThreeSum() {
         let threeSum = ThreeSum()
         let solution = threeSum.threeSum([-1,0,1,2,-1,-4])
+        print(solution)
+    }
+    
+    
+    func runContainerWithMostWater() {
+        let containerWithMostWater = ContainerWithMostWater()
+        let solution = containerWithMostWater.maxArea([1,1])
         print(solution)
     }
     

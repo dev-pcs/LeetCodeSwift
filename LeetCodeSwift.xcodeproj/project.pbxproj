@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		12017FEB27CF95880016D9CD /* ThreeSum_medium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12017FEA27CF95880016D9CD /* ThreeSum_medium.swift */; };
+		12017FED27CF9D030016D9CD /* ContainerWithMostWater_medium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12017FEC27CF9D030016D9CD /* ContainerWithMostWater_medium.swift */; };
 		1227528B27C9B01E002A05A1 /* BinarySearch_easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1227528A27C9B01E002A05A1 /* BinarySearch_easy.swift */; };
 		1227528D27C9B2C8002A05A1 /* SearchInsertedPostion_easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1227528C27C9B2C8002A05A1 /* SearchInsertedPostion_easy.swift */; };
 		1227528F27C9B449002A05A1 /* PalindromeNumber_easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1227528E27C9B449002A05A1 /* PalindromeNumber_easy.swift */; };
@@ -35,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		12017FEA27CF95880016D9CD /* ThreeSum_medium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSum_medium.swift; sourceTree = "<group>"; };
+		12017FEC27CF9D030016D9CD /* ContainerWithMostWater_medium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerWithMostWater_medium.swift; sourceTree = "<group>"; };
 		1227528A27C9B01E002A05A1 /* BinarySearch_easy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch_easy.swift; sourceTree = "<group>"; };
 		1227528C27C9B2C8002A05A1 /* SearchInsertedPostion_easy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInsertedPostion_easy.swift; sourceTree = "<group>"; };
 		1227528E27C9B449002A05A1 /* PalindromeNumber_easy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeNumber_easy.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				126CE59A27CB3BF10081D5AA /* FindMinimumInRotatedSortedArray_medium.swift */,
 				128354BF27C8A7A000F70118 /* TwoSum_easy.swift */,
 				12017FEA27CF95880016D9CD /* ThreeSum_medium.swift */,
+				12017FEC27CF9D030016D9CD /* ContainerWithMostWater_medium.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 				128354C027C8A7A000F70118 /* TwoSum_easy.swift in Sources */,
 				124CBD5627C9C14B00C4DEFD /* ContainsDuplicate_easy.swift in Sources */,
 				124CBD5227C9BF5500C4DEFD /* ReverseWordsInAString_easy.swift in Sources */,
+				12017FED27CF9D030016D9CD /* ContainerWithMostWater_medium.swift in Sources */,
 				128354A827C8A3A100F70118 /* AppDelegate.swift in Sources */,
 				124CBD4E27C9BC5100C4DEFD /* TwoSumSortedArray_easy.swift in Sources */,
 				12017FEB27CF95880016D9CD /* ThreeSum_medium.swift in Sources */,
